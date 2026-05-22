@@ -19,6 +19,10 @@ module RedmineSignIn
       payload["login"]
     end
 
+    # Nil when the user has "Hide my email address" enabled in their Redmine
+    # account preferences and the OAuth token isn't admin — Redmine omits the
+    # `mail` field from /users/current.json in that case. Fall back to #login
+    # if your Redmine uses email-as-login.
     def email_address
       payload["mail"]
     end
