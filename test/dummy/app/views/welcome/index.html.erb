@@ -1,0 +1,8 @@
+<h1>Redmine Sign-In demo</h1>
+
+<p>
+  Click the button below to sign in with the configured Redmine instance
+  (<code><%= RedmineSignIn.host %></code>).
+</p>
+
+<%= redmine_sign_in_button "Sign in with Redmine", proceed_to: create_login_url %>

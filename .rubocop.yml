@@ -1,0 +1,10 @@
+inherit_gem:
+  rubocop-rails-omakase: rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 3.3
+  NewCops: disable
+  Exclude:
+    - 'test/dummy/db/**/*'
+    - 'test/dummy/tmp/**/*'
+    - 'vendor/**/*'
