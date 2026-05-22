@@ -20,7 +20,6 @@ In Redmine, go to your account settings → **Applications** → **Register your
 
 - **Name** — anything
 - **Redirect URI** — `https://your-app.example.com/redmine_sign_in/callback`
-- **Confidential** — yes
 
 For local development, register a separate application with `http://localhost:3000/redmine_sign_in/callback`.
 
