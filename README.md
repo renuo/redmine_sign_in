@@ -4,6 +4,12 @@ Add Redmine sign-in to your Rails app. Lets users sign up for and sign in to you
 
 Requires Redmine 7+ and Rails 7.1+.
 
+## Alternatives
+
+If you only need the OmniAuth strategy and want to wire up the controllers, callbacks, and routes yourself, 
+a simpler version is available as a Gist:
+- [OmniAuth Redmine strategy (Gist)](https://gist.github.com/sislr/fb7f6d8f05c96c199d9525706561902d)
+
 ## Installation
 
 Add to your Gemfile:
